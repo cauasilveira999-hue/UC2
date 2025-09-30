@@ -53,7 +53,7 @@ console.log(typeof(idade))
 /* esse tipo foi impresso para que o usuario possa colocar as suas informações
 nome = prompt ("Qual seu nome?")
 idade = prompt ("Qual sua idade?")
-console.log("Qual seu nome?:",nome,"Qual sua idade?:",idade)*/
+console.log("Qual seu nome?:",nome,"Qual sua idade?:",idade)
 
 let adulto = true
 let pai = true
@@ -68,4 +68,5 @@ pai = prompt ("Você é pai/mãe?")
 bebe = prompt ("Seu filho é bebe?")
 console.log(typeof(adulto))
 console.log(typeof(pai))
-console.log(typeof(bebe))
+console.log(typeof(bebe))*/
+
