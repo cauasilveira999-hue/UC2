@@ -40,13 +40,32 @@ console.log("Você recebe",horasTrabalho,"/",salarioDia,"por hora")
 
 /*o codigo utiliza da declaração "let" e do comando "prompt" que faz uma pergunta para o
 usuario, assim o usuario pode colocar quantas horas ele trabalha e quanto recebe por dia, assim as informações
-são salvas e expostas no console a partir do comando "console.log"*/
+são salvas e expostas no console a partir do comando "console.log"
 
 
-let nome
-let idade 
+let nome = "Cauã"
+let idade = 16
 
-/* esse tipo foi impresso para que o usuario possa colocar as suas informações*/
+console.log(typeof(nome))
 
-nome = prompt =("Qual seu nome?")
-idade = prompt("Qual sua idade?")
+console.log(typeof(idade))
+
+/* esse tipo foi impresso para que o usuario possa colocar as suas informações
+nome = prompt ("Qual seu nome?")
+idade = prompt ("Qual sua idade?")
+console.log("Qual seu nome?:",nome,"Qual sua idade?:",idade)*/
+
+let adulto = true
+let pai = true
+let bebe = true
+
+console.log(typeof(adulto))
+console.log(typeof(pai))
+console.log(typeof(bebe))
+
+adulto = prompt("Você é adulto?")
+pai = prompt ("Você é pai/mãe?")
+bebe = prompt ("Seu filho é bebe?")
+console.log(typeof(adulto))
+console.log(typeof(pai))
+console.log(typeof(bebe))
