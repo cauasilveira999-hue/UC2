@@ -79,8 +79,7 @@ case 'India':
 default:
     console.log("Nacionalidade não definida")
     break
-}*/
-
+}
 
 let pokemon = prompt("Digite um pokemon inicial")
 
@@ -102,3 +101,81 @@ switch(pokemon){
         console.log("Nenhum pokemon escolhido")
         break
 }
+
+
+let personagem = prompt("Digite um nome de um personagem de Harry Potter")
+
+switch(personagem){
+    case 'ginny':
+        console.log("Grifinoria")
+        break
+
+        case 'hermione':
+            console.log("Grifinoria")
+            break
+
+            case 'lily':
+                console.log("Grifinoria")
+                break
+
+                case 'angelina':
+                    console.log("Grifinoria")
+                    break
+
+                    case 'katie':
+                        console.log("Grifinoria")
+                        break
+
+                        case 'parvati':
+                            console.log("Grifinoria")
+                            break
+
+                            case 'luna':
+                                console.log("Corvinal")
+                                break
+
+                                case 'cho':
+                                console.log("Corvinal")
+                                break
+
+                                case 'padma':
+                                console.log("Corvinal")
+                                break
+
+                                case 'myrtle':
+                                console.log("Corvinal")
+                                break
+
+                                case 'ninfadora':
+                                console.log("Lufa-Lufa")
+                                break
+
+                                case 'hannah':
+                                console.log("Lufa-Lufa")
+                                break
+
+                                case 'susan':
+                                console.log("Lufa-Lufa")
+                                break
+
+                                case 'bellatrix':
+                                console.log("Sonserina")
+                                break
+
+                                case 'narcisa':
+                                console.log("Sonserina")
+                                break
+
+                                case 'pansy':
+                                console.log("Sonserina")
+                                break
+
+                                case 'millicent':
+                                console.log("Sonserina")
+                                break
+
+                                default:
+                                    console.log("Personagem não encontrado")
+}
+   */
+
