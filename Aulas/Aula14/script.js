@@ -36,12 +36,22 @@ c++
  const meuArray = [10, 4, 7, 8, 100, 77]
  for(let i=0; i<6; i++){
     console.log(meuArray[i])
- }*/
+ }
 
  let maiorNumero = 0
  const meuArray = [11, 15, 18, 14, 12, 13]
  for(let i=0; i<6; i++){
-    if(maiorNumero > meuArray[i])
+    if(maiorNumero > meuArray[i]){
     maiorNumero = meuArray[i]
-    console.log("O maior numero é:", maiorNumero)
+    console.log("O maior numero é:", maiorNumero)}
+ }*/
+
+let soma = 0
+ const numerosArray = [11, 15, 18, 14, 12, 13]
+ for(let i = 0; i < 6; i++){
+   if(numerosArray[i] % 2 === 0){
+     soma += numerosArray[i]
+   }
+   console.log("A soma dos numeros pares é:", soma)
  }
+  
