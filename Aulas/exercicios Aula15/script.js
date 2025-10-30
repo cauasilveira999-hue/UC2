@@ -49,12 +49,12 @@ quantidadeAtual++
 }
 
 // o resultado seria um looping até atingir 4 asteriscos/linhas
-*/
 
 
-let bixosEstimacao = Number(prompt("Quantos animais de estimaçâo você tem?"))
+
+let bixosEstimacao = Number(prompt("Quantos animais de estimaçâo você tem?")) // converter string em number
 let nomeBixinhos
-let bixinhos = []
+let bixinhos = [] // criar fora do if ou looping para pode ser usado em todo codigo
 if (bixosEstimacao <= 0) {
     console.log("Que pena! Você pode adotar um pet!")
 
@@ -64,6 +64,29 @@ else if (bixosEstimacao > 0) {
         nomeBixinhos = prompt("Digite o nome dos seus bixinhos")
         bixinhos.push(nomeBixinhos)
     }// termina o looping laço
-    console.log(bixinhos)
+    console.log(bixinhos) // colocar o console fora do looping para ele nâo ficar repetindo tambem
 
+}
+
+
+
+for(let i = 0; i < 10; i++){
+    console.log(i)
+}
+
+for(let i = 0; i < 20; i++){
+    if( i % 2 === 0){
+    console.log(i)
+  }
+}
+
+let numero = Number(prompt("Digite um numero"))
+for (let i = 0; i <= 10; i++) {
+   console.log(numero * i)
+}
+*/
+let numero 
+for(let i = 0; i < 5; i++){
+numero = Number(prompt("Digite um numero"))
+console.log(numero = i)
 }

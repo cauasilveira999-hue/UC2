@@ -9,14 +9,14 @@ const blocoMinerar = "Diamante"
 
 
 // estrutura de if/else da mineração
-if(blocoMinerar === 'Diamante' || 'Obsidiana'){
+if (blocoMinerar === 'Diamante' || 'Obsidiana') {
     console.log("Use a picareta de ferro: Velocidade:", picaretaVelocidadeFerro)
-} 
+}
 
-else if(blocoMinerar === 'Minerio de Pedra'){
+else if (blocoMinerar === 'Minerio de Pedra') {
     console.log("Picareta de Pedra ou de Ferro é o ideal: Velocidade: Pedra", picaretaVelocidadePedra, ", Ferro:", picaretaVelocidadeFerro)
 }
-else{
+else {
     console.log("Qualquer ferramenta funciona, mas a de madeira é a mais simples")
 }
 
@@ -32,25 +32,25 @@ vidaInimiga -= danoFinal
 
 //Comparação Final utilizando if/else
 
-if(vidaInimiga <= 0){
+if (vidaInimiga <= 0) {
     console.log("O Creeper foi derrotado! Você sobreviveu à exploção")
 }
-else{
+else {
     console.log("O Creeper ainda está vivo com:", vidaInimiga, " . Corra!")
 }
 
 // variaveis do crafting
 const temDiamantes = true
 let nivelMesaCrafting = 2
-const temGravetos = true
+const temGravetos = false
 let temFerro = 10
 
 // estrutura if/else do crafting
 
-if((temGravetos && nivelMesaCrafting < 3) &&
-(temDiamantes &&  temFerro >= 10)){
+if ((temGravetos && nivelMesaCrafting < 3) &&
+    (temDiamantes && temFerro >= 10)) {
     console.log("Picareta de diamante criada! Hora de buscar Obsidiana")
-} 
-else{
+}
+else {
     console.log("Faltam recursos ou as condições de crafting não são atendidas!")
 }
