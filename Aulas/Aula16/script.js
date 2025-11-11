@@ -81,7 +81,7 @@ let somaNumeros = function() {
     resultado = 2 + 5
 console.log("A soma é:", resultado)
 }
-somaNumeros()*/ 
+somaNumeros()
 
 let resultado
 let somaNumeros = () =>  {
@@ -89,3 +89,70 @@ let somaNumeros = () =>  {
     console.log("O resultado é:", resultado)
 }
 somaNumeros()
+
+
+function determineMonstro(temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue) {
+    }
+determineMonstro(true), determineMonstro(false), determineMonstro(true), determineMonstro(true)
+
+if(determineMonstro){
+    
+}*/
+
+/* 
+function minhaFuncao(variavel) {
+    return variavel * 5
+}
+
+(minhaFuncao(2))
+(minhaFuncao(10))
+será impresso no console o resultado da multiplicação
+de 2 e 10 vezes 5
+
+// não exibiria nada, apenas um erro
+
+let textoDoUsuario = prompt("Insira um texto")
+
+const outraFuncao = function(texto){
+    return texto.toLowerCase().includes("cenoura")
+}
+
+const resposta = outraFuncao(textoDoUsuario)
+console.log(resposta)
+
+// a função verifica se a resposta do usuario é "cenoura"
+// true, true, true
+
+
+function minhaFuncao() {
+    console.log("Eu sou Cauã, tenho 16 anos moro em Sapucaia do Sul e sou estudante.")
+}
+minhaFuncao()
+
+
+function numeros(num1, num2) {
+   let soma = num1 + num2 
+   return soma
+}
+numeros()
+console.log(numeros(2,5))
+
+function numeros(num1, num2) {
+    let comparar = num1 >= num2 
+    return comparar
+ }
+ numeros()
+ console.log(numeros(4,5))
+
+function pares(numero) { 
+    return numero % 2 === 0
+}
+pares()
+console.log(pares(4))
+
+function mensagem(frase) {
+   console.log("Tamanho da mensagem", frase.length)
+   console.log("Mensagem em letras maiusculas:", frase.toUpperCase())
+}
+mensagem("Oi, sou o Cauã")*/
+
